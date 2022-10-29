@@ -103,7 +103,6 @@ export class App extends Component {
           images={this.state.images}
           isLoading={this.state.isLoading}
           toggleModal={this.toggleModal}
-          toggleMod={this.toggleMod}
         />
         {totalHits > images.length && searchImage && !isLoading && (
           <Button handleClick={this.handleClick} />
